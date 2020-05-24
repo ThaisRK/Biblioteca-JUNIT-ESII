@@ -32,8 +32,8 @@ class ClienteTest {
     @DisplayName("Valor de entrada deve ser igual ao valor da multa")
     void testaValorEntrada2() {
 
-        double troco = cliqDeve.pagarMulta(10);
-        Assertions.assertEquals(-1, troco);
+        double troco = cliqDeve.pagarMulta(11);
+        Assertions.assertEquals(0, troco);
     }
 
     /* ESSE AINDA TO FAZENDO, SE QUISER DALE PAU.
